@@ -1,9 +1,9 @@
 # Paper
 
 The FOOOF method and tool is described in the 
-[Parameterizing Neural Power Spectra](https://doi.org/10.1101/299859) paper.
+[Parameterizing Neural Power Spectra](https://doi.org/10.1038/s41593-020-00744-x) paper.
 
-The full version of this paper (currently under review) includes a series of investigations and applications of the algorithm, all of which have openly available code repositories demonstrating the analyses, which are described and linked here.
+The paper includes a series of investigations and applications of the algorithm, all of which have openly available code repositories demonstrating the analyses, which are described and linked here.
 
 If you are looking for information on citing this paper, and how to report on using FOOOF, check the 
 [reference](https://fooof-tools.github.io/fooof/reference.html) page on the documentation.
@@ -20,7 +20,8 @@ This repository covers:
   - is figure is a variant of one of the [tutorials](https://fooof-tools.github.io/fooof/auto_tutorials/plot_03-FOOOFAlgorithm.html#sphx-glr-auto-tutorials-plot-03-fooofalgorithm-py) from the documentation
 
 Direct Link (Code): https://github.com/fooof-tools/fooof
-Direct Link (Documentation): https://fooof-tools.github.io/fooof/
+
+Direct Link (Documentation): https://fooof-tools.github.io/
 
 ### Simulations
 
@@ -29,6 +30,9 @@ The power spectrum model was tested on simulated data, which is available in the
 
 This analysis covers:
 - Figure 3, algorithm performance on simulated data
+- Figure S2, algorithm performance on simulated data across a broader frequency range
+- Figure S3, algorithm performance on simulated data that violate model assumptions
+- Figure S5, methods comparisons of measures of the aperiodic component
 
 Direct Link: https://github.com/TomDonoghue/SimFOOOF/
 
@@ -49,6 +53,6 @@ The power spectrum model was also applied to a large collection of open-access m
 
 This analysis covers:
 - Figure 7, large scale analysis spectral parameters in of resting state MEG data
-- Figure S2, oscillation band occurrences and relative powers
+- Figure S4, oscillation band occurrences and relative powers
 
 Direct Link: https://github.com/TomDonoghue/MEGFOOOF
